@@ -1,6 +1,6 @@
 import {Buffer} from 'node:buffer';
-import * as Token from 'token-types';
-import * as strtok3 from 'strtok3'; // eslint-disable-line n/file-extension-in-import
+import * as Token from 'token-types/lib/index.js';
+import * as strtok3 from 'strtok3/lib/core.js'; // eslint-disable-line n/file-extension-in-import
 import {
 	stringToBytes,
 	tarHeaderChecksumMatches,
