@@ -249,6 +249,13 @@ class FileTypeParser {
 			};
 		}
 
+		if (this.check([0x4F, 0x62, 0x6A, 0x01])) {
+			return {
+				ext: 'avro',
+				mime: 'application/avro',
+			};
+		}
+
 		if (this.checkString('FLIF')) {
 			return {
 				ext: 'flif',
@@ -687,7 +694,7 @@ class FileTypeParser {
 			};
 		}
 
-		// https://github.com/threatstack/libmagic/blob/master/magic/Magdir/matroska
+		// https://github.com/file/file/blob/master/magic/Magdir/matroska
 		if (this.check([0x1A, 0x45, 0xDF, 0xA3])) { // Root element: EBML
 			async function readField() {
 				const msb = await tokenizer.peekNumber(Token.UINT8);
@@ -845,6 +852,13 @@ class FileTypeParser {
 			return {
 				ext: 'parquet',
 				mime: 'application/x-parquet',
+			};
+		}
+
+		if (this.check([0xCF, 0xFA, 0xED, 0xFE])) {
+			return {
+				ext: 'macho',
+				mime: 'application/x-mach-binary',
 			};
 		}
 
@@ -1303,6 +1317,13 @@ class FileTypeParser {
 
 		// Increase sample size from 12 to 256.
 		await tokenizer.peekBuffer(this.buffer, {length: Math.min(256, tokenizer.fileInfo.size), mayBeLess: true});
+
+		if (this.check([0x61, 0x63, 0x73, 0x70], {offset: 36})) {
+			return {
+				ext: 'icc',
+				mime: 'application/vnd.iccprofile',
+			};
+		}
 
 		// -- 15-byte signatures --
 

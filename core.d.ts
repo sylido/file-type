@@ -50,6 +50,7 @@ export type FileExtension =
 	| 'epub'
 	| 'mobi'
 	| 'elf'
+	| 'macho'
 	| 'exe'
 	| 'swf'
 	| 'rtf'
@@ -150,6 +151,8 @@ export type FileExtension =
 	| 'arj'
 	| 'cpio'
 	| 'ace'
+	| 'avro'
+	| 'icc'
 	; // eslint-disable-line semi-style
 
 export type MimeType =
@@ -207,6 +210,7 @@ export type MimeType =
 	| 'audio/amr'
 	| 'application/pdf'
 	| 'application/x-elf'
+	| 'application/x-mach-binary'
 	| 'application/x-msdownload'
 	| 'application/x-shockwave-flash'
 	| 'application/rtf'
@@ -296,6 +300,8 @@ export type MimeType =
 	| 'application/x-arj'
 	| 'application/x-cpio'
 	| 'application/x-ace-compressed'
+	| 'application/avro'
+	| 'application/vnd.iccprofile'
 	; // eslint-disable-line semi-style
 
 export type FileTypeResult = {

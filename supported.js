@@ -48,6 +48,7 @@ export const extensions = [
 	'pdf',
 	'epub',
 	'elf',
+	'macho',
 	'exe',
 	'swf',
 	'rtf',
@@ -147,6 +148,8 @@ export const extensions = [
 	'arj',
 	'cpio',
 	'ace',
+	'avro',
+	'icc',
 ];
 
 export const mimeTypes = [
@@ -204,6 +207,7 @@ export const mimeTypes = [
 	'audio/amr',
 	'application/pdf',
 	'application/x-elf',
+	'application/x-mach-binary',
 	'application/x-msdownload',
 	'application/x-shockwave-flash',
 	'application/rtf',
@@ -293,4 +297,6 @@ export const mimeTypes = [
 	'application/x-arj',
 	'application/x-cpio',
 	'application/x-ace-compressed',
+	'application/avro',
+	'application/vnd.iccprofile',
 ];

@@ -8,36 +8,6 @@ This package is for detecting binary-based file formats, not text-based formats 
 
 We accept contributions for commonly used modern file formats, not historical or obscure ones. Open an issue first for discussion.
 
-<br>
-
----
-
-<div align="center">
-	<p>
-		<p>
-			<sup>
-				<a href="https://github.com/sponsors/sindresorhus">My open source work is supported by the community</a>
-			</sup>
-		</p>
-		<sup>Special thanks to:</sup>
-		<br>
-		<br>
-		<a href="https://bit.io/?utm_campaign=github_repo&utm_medium=referral&utm_content=file-type&utm_source=github">
-			<div>
-				<img src="https://sindresorhus.com/assets/thanks/bitio-logo.svg" width="190" alt="bit.io">
-			</div>
-			<b>Instant, shareable cloud PostgreSQL database</b>
-			<div>
-				<sup>Import any dataset in seconds, share with anyone with a click, try without signing up</sup>
-			</div>
-		</a>
-	</p>
-</div>
-
----
-
-<br>
-
 ## Install
 
 ```sh
@@ -359,6 +329,7 @@ Returns a `Set<string>` of supported MIME types.
 - [`asf`](https://en.wikipedia.org/wiki/Advanced_Systems_Format) - Advanced Systems Format
 - [`avi`](https://en.wikipedia.org/wiki/Audio_Video_Interleave) - Audio Video Interleave file
 - [`avif`](https://en.wikipedia.org/wiki/AV1#AV1_Image_File_Format_(AVIF)) - AV1 Image File Format
+- [`avro`](https://en.wikipedia.org/wiki/Apache_Avro#Avro_Object_Container_File) - Object container file developed by Apache Avro
 - [`blend`](https://wiki.blender.org/index.php/Dev:Source/Architecture/File_Format) - Blender project
 - [`bmp`](https://en.wikipedia.org/wiki/BMP_file_format) - Bitmap image file
 - [`bpg`](https://bellard.org/bpg/) - Better Portable Graphics file
@@ -395,6 +366,7 @@ Returns a `Set<string>` of supported MIME types.
 - [`glb`](https://github.com/KhronosGroup/glTF) - GL Transmission Format
 - [`gz`](https://en.wikipedia.org/wiki/Gzip) - Archive file
 - [`heic`](https://nokiatech.github.io/heif/technical.html) - High Efficiency Image File Format
+- [`icc`](https://en.wikipedia.org/wiki/ICC_profile) - ICC Profile
 - [`icns`](https://en.wikipedia.org/wiki/Apple_Icon_Image_format) - Apple Icon image
 - [`ico`](https://en.wikipedia.org/wiki/ICO_(file_format)) - Windows icon file
 - [`ics`](https://en.wikipedia.org/wiki/ICalendar#Data_format) - iCalendar
@@ -416,6 +388,7 @@ Returns a `Set<string>` of supported MIME types.
 - [`m4b`](https://en.wikipedia.org/wiki/M4B) - Audiobook and podcast MPEG-4 files, which also contain metadata including chapter markers, images, and hyperlinks
 - [`m4p`](https://en.wikipedia.org/wiki/MPEG-4_Part_14#Filename_extensions) - MPEG-4 files with audio streams encrypted by FairPlay Digital Rights Management as were sold through the iTunes Store
 - [`m4v`](https://en.wikipedia.org/wiki/M4V) - Video container format developed by Apple, which is very similar to the MP4 format
+- [`macho`](https://en.wikipedia.org/wiki/Mach-O) - Mach-O binary format
 - [`mid`](https://en.wikipedia.org/wiki/MIDI) - Musical Instrument Digital Interface file
 - [`mie`](https://en.wikipedia.org/wiki/Sidecar_file) - Dedicated meta information format which supports storage of binary as well as textual meta information
 - [`mj2`](https://en.wikipedia.org/wiki/Motion_JPEG_2000) - Motion JPEG 2000
