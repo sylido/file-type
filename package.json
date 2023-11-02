@@ -206,7 +206,7 @@
 	],
 	"dependencies": {
 		"readable-web-to-node-stream": "^3.0.2",
-		"strtok3": "github:sylido/strtok3#master",
+		"strtok3": "git+https://git@github.com/sylido/strtok3#master",
 		"token-types": "^5.0.1"
 	},
 	"devDependencies": {
