@@ -1,14 +1,17 @@
 {
-	"name": "file-type",
-	"version": "18.6.0",
+	"name": "sylido-file-type",
+	"version": "1.0.0",
 	"description": "Detect the file type of a Buffer/Uint8Array/ArrayBuffer",
 	"license": "MIT",
-	"repository": "sindresorhus/file-type",
-	"funding": "https://github.com/sindresorhus/file-type?sponsor=1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sylido/file-type.git"
+	},
+	"funding": "https://github.com/sylido/file-type",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Danail Gabenski",
+		"email": "solidanski@gmail.com",
+		"url": "https://github.com/sylido/file-type"
 	},
 	"type": "module",
 	"exports": {
@@ -209,7 +212,7 @@
 	],
 	"dependencies": {
 		"readable-web-to-node-stream": "^3.0.2",
-		"strtok3": "git+https://git@github.com/sylido/strtok3#master",
+		"strtok3": "git+https://git@github.com/sylido/strtok3.git#master",
 		"token-types": "^5.0.1"
 	},
 	"devDependencies": {
