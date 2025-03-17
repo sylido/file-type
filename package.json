@@ -1,6 +1,6 @@
 {
 	"name": "sylido-file-type",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Detect the file type of a Buffer/Uint8Array/ArrayBuffer",
 	"license": "MIT",
 	"repository": {
@@ -212,7 +212,7 @@
 	],
 	"dependencies": {
 		"readable-web-to-node-stream": "^3.0.2",
-		"strtok3": "git+https://git@github.com/sylido/strtok3.git#master",
+		"strtok3": "npm:sylido-strtok3@^1.0.0",
 		"token-types": "^5.0.1"
 	},
 	"devDependencies": {
